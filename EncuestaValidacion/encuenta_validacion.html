@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/encuenta_validacion.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<form action="" class="formulario" id="formulario">
+		<div>
+			<!-- Grupo: Pregunta tipo 1 -->
+			<label for="correo" class="formulario__label">Cual es tu Genero</label>
+			<div class="form-check">
+ 			 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+			  <label class="form-check-label" for="flexCheckDefault">Masculino
+			  </label>
+			</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+				  <label class="form-check-label" for="flexCheckChecked">Femenino</label>
+				</div>
+
+			<!-- Grupo: Pregunta Marvel o DC-->
+
+			<div class="formulario__grupo" id="grupo__solicitud">
+			<label for="correo" class="formulario__label">Universo Favorito de Comics</label>
+			<div class="form-check form-switch">
+  			<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+  			<label class="form-check-label" for="flexSwitchCheckChecked">Marvel</label>
+			</div>
+
+			<div class="form-check form-switch">
+  				<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+  				<label class="form-check-label" for="flexSwitchCheckChecked">DC</label>
+			</div>
+
+
+			<!-- Grupo: Pregunta Marvel o DC-->
+								<div class="formulario__grupo" id="grupo__solicitud">
+									<label for="correo" class="formulario__label">Estado Civil</label>
+									<select id="solicitud">
+									  <option value="0">Selecciona una Opcion</option>
+									  <option value="1">Solter@</option>
+									  <option value="2">Union libre</option>
+									  <option value="3">Casad@</option>
+									  <option value="4">Separad@</option>
+									  <option value="5">Viud@</option>
+									</select>
+										<i class="formulario__validacion-estado fas fa-times-circle"></i>
+									</div>
+									<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+								</div>
+
+			<!-- Grupo: Pregunta Tipo radio -->
+
+			<div class="formulario__grupo" id="grupo__solicitud">
+			<label for="correo" class="formulario__label">Que bebiba prefieres?</label>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+			  <label class="form-check-label" for="exampleRadios1">Chocolate
+			  </label>
+			</div>
+			
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+			  <label class="form-check-label" for="exampleRadios2">Cafe
+			  </label>
+			</div>
+
+			<!-- Grupo: Pregunta Tipo Example range -->
+			<div class="formulario__grupo" id="grupo__solicitud">
+				<label for="correo" class="formulario__label">Que tan feliz te sientes hoy</label>
+			<input type="range" class="form-range" id="customRange1">
+			<img src="img/caritashumor" width="500px;">
+
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-check-circle"></i> <b>Enviado:</b> Gracias por participar en la encuesta. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar"><br>
+				<button acction= "https://www.youtube.com" type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</div>
+		</form>
+	</main>
+
+	<script src="js/encuenta_validacion.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
