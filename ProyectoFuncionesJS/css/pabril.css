@@ -1,0 +1,255 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+/* ESTILOS MENU PRINCIPAL // */
+
+.menu a{
+	color: white;
+	width: 300px;
+	margin: 5px;
+	background: #1902A1;
+	background-color:rgba(0, 0, 0, 0.35);
+	padding: 10px;
+}
+
+.menucont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.maxcontainer{
+	height: 100vh;
+}
+
+/* ESTILOS CABINA // */
+
+#titulo{
+	color: white;
+	font-weight: bold;
+}
+
+#caja{
+	background-color:rgba(0, 0, 0, 0.35);
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px;
+	box-shadow: 5px;
+	width: 360px;
+	height: 350px;
+
+}
+
+#cantidad {
+	width: 300px;
+	color: black;
+	border-radius: 7px;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	margin:auto; 
+	
+
+}
+
+
+#opcion {
+	width: 300px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 2px;
+	border-radius: 7px;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#boton {
+	width: 300px;
+	color: white;
+	background: #1902A1;
+	background-color:rgba(0, 0, 0, 0.35);
+	padding: 7px;
+	border-radius: 5px;
+}
+
+/* ESTILOS FUNCIONES // */
+
+h1{
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* FONDO MENU FUNCIONES */
+.card{
+	text-align: center;
+	margin: 100px auto;
+	width: 300px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 7px;
+	border-radius: 9px;
+	color: white;
+}
+
+.ejercicios{
+	background-color: #FFFFFF;
+	width: 300px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 7px;
+	border-radius: 3px;
+	color: white;
+}
+
+.btn{
+	width: 230px;
+	color: white;
+	background: #1902A1;
+	background-color:rgba(0, 0, 0, 0.35);
+	padding: 7px;
+	border-radius: 5px;
+}
+
+#conjuntobtn {
+	color: white;
+	height: 250px;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+/*//ESTIDOS CONVERSOR GRADOS//*/
+
+#menucon{
+	width: 350px;
+	height: 420px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 25px;
+	border-radius: 3px;
+	color: white;
+	margin-top: 150px;
+	border-radius: 9px;
+	
+}
+
+
+#opcion1{
+	width: 300px;
+	background-color:rgba(0, 0, 0, 0.35);
+	color: black;
+	padding: 7px;
+	border-radius: 3px;
+	color: white;
+}
+
+
+#opcion2{
+	width: 300px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 7px;
+	border-radius: 3px;
+	color: white;
+}
+
+/* // ESTILOS TRIANGULOS // */
+
+.triangulo{
+	color: white;
+	background: #3f0275;
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px;
+	box-shadow: 5px;
+	height: 440px;
+}
+
+.oculto{
+	display: none;
+}
+
+.visible{ display: inline;
+ }
+
+.success{
+	border: 2px solid green;
+}
+
+.error{
+	border: 2px solid red;
+}
+
+.feedback{
+
+}
+
+#cajatri{
+	border-radius: 6px;
+	padding: 10px;
+}
+
+/* 	ESTILOS PARA LA VALIDACION  */
+
+
+
+
+/* FONDO MENU CALCULADORA */
+
+.menucal{
+	text-align: center;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 27px;
+	border-radius: 9px;
+	color: white;
+	height: 500px;
+	margin-top: 200px;
+}
+
+#ingnum1{
+	text-align: center;
+	padding: 10px;
+	border-radius: 9px;
+	color: white;
+	width: 300px;
+	margin-top: -5px;
+}
+
+#num1{
+	padding:7px;
+	margin-top: 0px;
+	border-radius: 9px;
+	color: black;
+	width: 230px;
+}
+
+#num2{
+	color: black;
+	padding: 7px;
+	margin-top: 0px;
+	border-radius: 9px;
+	color: black;
+	width: 230px;
+}
+
+#operacion{
+	width: 230px;
+	background-color:rgba(0, 0, 0, 0.55);
+	color: black;
+	padding: 2px;
+	border-radius: 7px;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
