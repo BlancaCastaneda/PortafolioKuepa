@@ -1,0 +1,204 @@
+*/{
+	margin: 0;
+	border:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.containerfluid{
+	padding-top: 0;
+}
+
+header{
+	padding: 10px;
+}
+.logo img{
+	max-width: 250px;
+}
+
+.btn-info {
+  color: #000;
+  background-color: #00B2B1;
+  border-color: #00B2B1;
+  font-weight: bold;
+}
+
+.btn-info:hover {
+  color: #000;
+  background-color: #FFFFFF;
+  border-color: #00B2B1;
+}
+
+.btn-outline-info {
+  color: #752995;
+  background-color: transparent;
+  background-image: none;
+  border-color: #752995;
+  font-weight: bold;
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #752995;
+  border-color: #752995;
+}
+nav{
+	background-color: #752995;
+}
+
+
+#promo{
+  margin:20px auto;
+}
+
+.principal{
+  box-shadow: 0px 3px 3px #000000;
+  background-image: url(../img/fondo.jpg);
+  padding: 20px 0px 0px 20px;
+}
+
+.principal1{
+  padding: 15px;
+  margin-right: 0px;
+  background-color: #752995;
+  box-shadow: 0px 3px 3px #000000;
+  text-align: center;
+}
+
+.principal1 h2{
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.principal1 img{
+  border-radius: 100%;
+  border:6px solid #FFFFFF;
+}
+
+.registro {
+  width: 230px;
+  color: purple
+  color: #752995;
+  font-weight: bold;
+}
+
+/*-------------------------*/
+.cajat{
+
+  max-width: 1000px;
+  width: 100%;
+  float: left;
+  min-height: 300px;
+  height: 100%;
+  background-color: #FFFFFF;
+
+}
+
+.cajat h1 {
+
+    margin: 20px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 25px;
+    text-shadow: 5px 3px 2px #ffffff;
+    font-weight: bold;
+
+}    
+
+.cajat img {
+    float: left;
+    margin: 10px 30px 10px 30px;
+    align-content: justify;
+    height: 150px;
+}
+
+.cajat p {
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+} 
+
+/***********************************************/
+.cajaf{
+
+  width: 33.3%;
+  float: left;
+  min-height: 190px;
+  height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.servicios {
+  position: relative;
+  padding: 10px;
+  margin: 0px 10px 0px 40px;
+  width: 28%;
+  float: left;
+  min-height: 190px;
+  height: 100%;
+  text-align: center;
+ }
+
+ .servicios h4{
+  color: #752995;
+  font-weight: bold;
+  opacity: 0,3;
+  text-align: center;
+ }
+
+ .servicios p{
+  text-align: left;
+ }
+
+.service h1{
+  margin-top: 50px;
+  color: purple;
+  text-align: center;
+  text-shadow: 2px 2px 1px #000000;
+  font-weight:bold;
+}
+
+hr {
+  width: 15%;
+  border: 2px solid #6fbeec;
+  opacity: 0.5;
+  border-radius: 2PX;
+ }
+
+.cajaf{
+  background: url(../img/fondo.jpg);
+  background-position: top center;
+  height: 280px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.final{
+  width:100%;
+  background-color: rgba(169, 75, 233 ,0.5);
+  height: 100%;
+  margin:auto;
+}
+
+.corporativo {
+  margin: 0px 10px 0px 40px;
+  width: 28%;
+  float: left;
+  color: #FFFFFF;
+  font-size: 18px;   
+}
+
+.corporativo i {
+  font-size: 40px;
+}
+
+.corporativo ul {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+/****************************************/
